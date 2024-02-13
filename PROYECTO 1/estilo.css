@@ -1,0 +1,117 @@
+/* Estilos generales */
+body {
+    background-image: url('./5385337.jpg'); /* Reemplaza 'fondo.jpg' con la ruta de tu imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    background-color: #0602fd;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+.form-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="number"],
+form select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url('arrow.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+    padding-right: 30px;
+    cursor: pointer;
+}
+
+button {
+    background-color: #fc00a8;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #002fff;
+}
+
+.sales {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pending,
+.delivered {
+    flex-basis: 48%;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sales h2 {
+    margin-top: 0;
+    border-bottom: 2px solid #ff3300;
+    padding-bottom: 10px;
+}
+
+.sales p {
+    margin-top: 20px;
+}
+
+.sales p span {
+    font-weight: bold;
+}
+
+/* Estilos específicos del producto transferencia */
+.product.transferencia {
+    background-color: #99ccff; /* Color de fondo personalizado */
+}
+/* Estilos específicos para productos pagados al contado */
+.product.contado {
+    background-color: #7FFF00; /* Color verde */
+}
